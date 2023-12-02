@@ -10,7 +10,7 @@ import UseMedia from "../../Hooks/UseMedia";
 
 const UserHeaderNav = () => {
   const { userLogout } = React.useContext(UserContext);
-  const navigate = useNavigate();
+
   const mobile = UseMedia("40rem");
   const [mobileMenu, setMobileMenu] = React.useState(null);
 
@@ -18,11 +18,6 @@ const UserHeaderNav = () => {
   React.useEffect(() => {
     setMobileMenu(false);
   }, [pathname]);
-
-  const handleLogout = () => {
-    userLogout();
-    navigate("/login");
-  };
 
   return (
     <>
@@ -51,7 +46,11 @@ const UserHeaderNav = () => {
         <NavLink to="/conta/postar">
           <Adicionar /> {mobile && "Adicionar Fotos"}
         </NavLink>
-        <button onClick={handleLogout}>
+        <button
+          onClick={() => {
+            userLogout();
+          }}
+        >
           <Sair /> {mobile && "Sair"}
         </button>
       </nav>
