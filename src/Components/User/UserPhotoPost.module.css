@@ -1,8 +1,8 @@
 .photoPost {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 2rem;
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .file {

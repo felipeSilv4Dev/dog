@@ -17,18 +17,10 @@ const UserPhotoPost = () => {
   const navigate = useNavigate();
 
   React.useEffect(() => {
-    console.log(data);
     if (data) {
       navigate("/conta");
     }
   }, [data, navigate]);
-
-  const handleImgChange = ({ target }) => {
-    setImg({
-      preview: URL.createObjectURL(target.files[0]),
-      raw: target.files[0],
-    });
-  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -41,6 +33,13 @@ const UserPhotoPost = () => {
     const token = window.localStorage.getItem("token");
     const { url, options } = PHOTO_POST(formData, token);
     request(url, options);
+  };
+
+  const handleImgChange = ({ target }) => {
+    setImg({
+      preview: URL.createObjectURL(target.files[0]),
+      raw: target.files[0],
+    });
   };
 
   return (
@@ -57,19 +56,21 @@ const UserPhotoPost = () => {
           onChange={handleImgChange}
         />
         {loading ? (
-          <Button disabled>Carregando</Button>
+          <Button disabled>Enviando...</Button>
         ) : (
           <Button>Enviar</Button>
         )}
         <Error error={error} />
       </form>
 
-      {img.preview && (
-        <div
-          className={styles.preview}
-          style={{ backgroundImage: `url("${img.preview}")` }}
-        ></div>
-      )}
+      <div>
+        {img.preview && (
+          <div
+            className={styles.preview}
+            style={{ backgroundImage: `url("${img.preview}")` }}
+          ></div>
+        )}
+      </div>
     </section>
   );
 };
