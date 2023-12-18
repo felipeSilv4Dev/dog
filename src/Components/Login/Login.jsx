@@ -8,8 +8,12 @@ import { UserContext } from "../../UserContext";
 import styles from "./Login.module.css";
 
 const Login = () => {
-  const { login } = React.useContext(UserContext);
-  if (login) return <Navigate to="/conta" />;
+  const { login, data } = React.useContext(UserContext);
+
+  if (login) {
+    return <Navigate to="/conta" />;
+  }
+
   return (
     <section className={styles.login}>
       <div className={styles.forms}>
