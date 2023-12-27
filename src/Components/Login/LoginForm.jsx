@@ -2,11 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Input from "../Forms/Input";
 import Button from "../Forms/Button";
-import useForm from "../../Hooks/useform";
+import useForm from "../../Hooks/useForm";
 import { UserContext } from "../../UserContext";
 import Error from "../Helper/Error";
 import styles from "./LoginForm.module.css";
 import stylesButton from "../Forms/Button.module.css";
+import Head from "../Helper/Head";
 
 const LoginForm = () => {
   const username = useForm();
@@ -24,6 +25,7 @@ const LoginForm = () => {
 
   return (
     <section className="animeLeft">
+      <Head title="Login" />
       <h1 className="title">Login</h1>
 
       <form className={styles.form} onSubmit={handleSubmit}>
