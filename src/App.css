@@ -48,7 +48,7 @@ a {
   color: #333;
 }
 .container {
-  max-width: 50rem;
+  max-width: 60rem;
   padding: 0 1rem;
   margin: 0 auto;
 }
@@ -97,4 +97,8 @@ a {
 }
 .AppBody {
   flex: 1;
+}
+
+.VictoryContainer {
+  height: initial !important;
 }
