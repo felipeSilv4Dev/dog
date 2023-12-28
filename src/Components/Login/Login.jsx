@@ -7,6 +7,7 @@ import LoginPasswordReset from "./LoginPasswordReset";
 import { UserContext } from "../../UserContext";
 import styles from "./Login.module.css";
 import NotFound from "../NotFound";
+import Loading from "../Helper/Loading";
 
 const Login = () => {
   const { login, data } = React.useContext(UserContext);
@@ -14,6 +15,8 @@ const Login = () => {
   if (login) {
     return <Navigate to="/conta" />;
   }
+
+  if (data) return <Loading />;
 
   return (
     <section className={styles.login}>

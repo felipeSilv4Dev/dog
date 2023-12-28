@@ -36,7 +36,7 @@ export const UserStorage = ({ children }) => {
 
       const { url, options } = TOKEN_POST({ username, password });
       const tokenRes = await fetch(url, options);
-      if (!tokenRes.ok) throw new Error(`error: Senha ou Usuário inválido`);
+      if (!tokenRes.ok) throw new Error("Usuário ou Senha inválido");
       const { token } = await tokenRes.json();
       window.localStorage.setItem("token", token);
       await getUser(token);
