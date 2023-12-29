@@ -69,7 +69,7 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 
 <br>
 
-## Desing
+## Design
 
 O design do nosso app foram cuidadosamente escolhidos para criar uma experiência visualmente atraente e intuitiva para os usuários.
 
