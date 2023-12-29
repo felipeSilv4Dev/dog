@@ -106,5 +106,7 @@ $ npm run dev
 
 Feito com :yellow_heart: by [Felipe_Silva](https://github.com/felipeSilv4dev)
 
-[![Linkedin Badge](https://img.shields.io/badge/-Felipe%Silva-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipe-silva-1019ab271/)](https://www.linkedin.com/in/felipe-silva-1019ab271/)
-[![Gmail Badge](https://img.shields.io/badge/-felipesantana18n@gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipesantana18n@gmail)](mailto:felipesantana18n@gmail)
+ <div align="start">
+  <a href='http://www.linkedin.com/in/felipe-silva-1019ab271' target'_blank'><img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'</a>
+  <a href="mailto:felipesantana18n@gmail.com" target='_blank'><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"> </a>
+</div> 
