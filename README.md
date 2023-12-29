@@ -61,9 +61,9 @@ Gráficos criados com a biblioteca <strong>Victory</strong>
 As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 
 - [HTML](https://devdocs.io/html/)
-- [CSS](https://devdocs.io/css/) 
+- [CSS](https://devdocs.io/css/)
 - [JavaScript](https://devdocs.io/javascript/)
-- [React Js](https://devdocs.io/Reactjs/) 
+- [React Js](https://devdocs.io/Reactjs/)
 - [styled-components](https://devdocs.io/styled-components/)
 - [Victory](https://devdocs.io/Victory/)
 
