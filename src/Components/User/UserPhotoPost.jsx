@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./userPhotoPost.module.css";
 import Input from "../Forms/Input";
 import Button from "../Forms/Button";
 import useForm from "../../Hooks/useForm";
@@ -8,6 +7,7 @@ import Error from "../Helper/Error";
 import { PHOTO_POST } from "../../api";
 import { useNavigate } from "react-router-dom";
 import Head from "../Helper/Head";
+import styles from "./UserPhotoPost.module.css";
 
 const UserPhotoPost = () => {
   const nome = useForm();
