@@ -1,8 +1,110 @@
-# React + Vite
+# Social network for dogs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div>
+<img align="start" src="./src/Assets/info/dog-6.png" >
+<img align="start" src="./src/Assets/info/dog-7.png" >
+<img align="start" src="./src/Assets/info/dog-1.png" >
+<img align="start" src="./src/Assets/info/dog-2.png" >
+<img align="start" src="./src/Assets/info/dog-3.png" >
+<img align="start" src="./src/Assets/info/dog-4.png" >
+<img align="start" src="./src/Assets/info/dog-5.png" >
+</div>
 
-Currently, two official plugins are available:
+<p>Social network made exclusively for your pet.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>
+  <img src="https://img.shields.io/badge/made%20by-Felipe%20Silva-fb1?style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/FelipeSilva/socialNetworkForDogs?color=fb1&style=flat-square">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/FelipeSilva/socialNetworkForDogs?color=fb1&style=flat-square">
+</p>
+
+<img align="right" src="./src/Assets/dogs-read.svg" height="120">
+
+## Tópicos
+
+[Sobre a aplicação](#Propósito-e-Objetivo)
+
+[Funcionalidades](#funcionalidades)
+
+[Tecnologias e Ferramentas](#tecnologias-e-ferramentas)
+
+[Instalação e uso](#instalação-e-uso)
+
+<br>
+
+## Propósito e Objetivo
+
+A Social network for dogs é um app feito para os donos de pet. Essa rede foi pensada para você postar fotos do seu pet e interagir com os demais.
+
+🐶É uma aplicação responsiva desenvolvida na conclusão de um mega curso de React Js, na plataforma https://www.origamid.com/. Foram utilizadas as principais funcionalidades da biblioteca, com o intuito de abordar os principais conceitos e boas práticas no desenvolvimento.
+
+<br>
+
+## Funcionalidades
+
+- [x] Cadastro de usuário
+- [x] Sistema de login, recuperação e alteração de senha.
+- [x] Comentários em publicações de outros usuários.
+- [x] Acesso a estatísticas do seu perfil.
+- [x] Páginas dinâmicas com React js.
+
+<br>
+
+## Lib
+
+Gráficos criados com a biblioteca <strong>Victory</strong>
+
+<br>
+
+## Tecnologias e Ferramentas
+
+As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
+
+- [HTML](https://devdocs.io/html/)
+- [CSS](https://devdocs.io/css/)
+- [JavaScript](https://devdocs.io/javascript/)
+- [React Js](https://devdocs.io/Reactjs/)
+- [styled-components](https://devdocs.io/styled-components/)
+- [Victory](https://devdocs.io/Victory/)
+
+<br>
+
+## Desing
+
+O design do nosso app foram cuidadosamente escolhidos para criar uma experiência visualmente atraente e intuitiva para os usuários.
+
+<br>
+
+## Instalação e Uso
+
+Para rodar a aplicação, você precisa instalar o [Node](https://nodejs.org/en/)
+
+Siga os passos abaixo:
+
+```bash
+# Abra um terminal e copie este repositório com o comando
+$ git clone https://github.com/felipesilv4dev/socialNetworkForDogs.git
+# ou use a opção de download.
+
+# Entre na pasta com
+$ cd socialNetworkForDogs
+
+# Instale as dependências
+$ npm install
+
+# Rode a aplicação
+$ npm run dev
+```
+
+<br>
+
+<strong>Site : https://rede-dogs.netlify.app/</strong>  
+<strong>Login Teste : Dog</strong>  
+<strong>Senha Teste :Dog</strong>
+
+---
+
+Feito com :yellow_heart: by [Felipe_Silva](https://github.com/felipeSilv4dev)
+
+[![Linkedin Badge](https://img.shields.io/badge/-Felipe%Silva-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipe-silva-1019ab271/)](https://www.linkedin.com/in/felipe-silva-1019ab271/)
+[![Gmail Badge](https://img.shields.io/badge/-felipesantana18n@gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipesantana18n@gmail)](mailto:felipesantana18n@gmail)
