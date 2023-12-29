@@ -99,8 +99,8 @@ $ npm run dev
 <br>
 
 <strong>Site : https://rede-dogs.netlify.app/</strong>  
-<strong>Login Teste : Dog</strong>  
-<strong>Senha Teste :Dog</strong>
+<strong>Login Teste : dog</strong>  
+<strong>Senha Teste : dog</strong>
 
 ---
 
