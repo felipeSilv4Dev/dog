@@ -22,7 +22,7 @@
 
 ## Tópicos
 
-[Sobre a aplicação](#Proposito-e-Objetivo)
+[Sobre a aplicação](#Propósito-e-Objetivo)
 
 [Funcionalidades](#funcionalidades)
 
