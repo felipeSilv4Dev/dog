@@ -1,28 +1,28 @@
 # Social network for dogs
 
-<div>
-<img align="start" src="./src/Assets/info/dog-6.png" >
-<img align="start" src="./src/Assets/info/dog-7.png" >
-<img align="start" src="./src/Assets/info/dog-1.png" >
-<img align="start" src="./src/Assets/info/dog-2.png" >
-<img align="start" src="./src/Assets/info/dog-3.png" >
-<img align="start" src="./src/Assets/info/dog-4.png" >
-<img align="start" src="./src/Assets/info/dog-5.png" >
+<div align="center" >
+<img align="start" src="./src/Assets/info/dog-6.png" height='120' >
+<img align="start" src="./src/Assets/info/dog-7.png" height='120' >
+<img align="start" src="./src/Assets/info/dog-1.png"  height='120'>
+<img align="start" src="./src/Assets/info/dog-2.png" height='120'  >
+<img align="start" src="./src/Assets/info/dog-3.png" height='120' >
+<img align="start" src="./src/Assets/info/dog-4.png" height='120' >
+<img align="start" src="./src/Assets/info/dog-5.png" height='120' >
 </div>
 
 <p>Social network made exclusively for your pet.</p>
 
 <p>
   <img src="https://img.shields.io/badge/made%20by-Felipe%20Silva-fb1?style=flat-square">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/FelipeSilva/socialNetworkForDogs?color=fb1&style=flat-square">
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/FelipeSilva/socialNetworkForDogs?color=fb1&style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/FelipeSilv4Dev/dog?color=fb1&style=flat-square">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/FelipeSilv4Dev/dog?color=fb1&style=flat-square">
 </p>
 
-<img align="right" src="./src/Assets/dogs-read.svg" height="120">
+<img align="right" src="./src/Assets/dogs-read.svg"  height="120">
 
 ## Tópicos
 
-[Sobre a aplicação](#Propósito-e-Objetivo)
+[Sobre a aplicação](#Proposito-e-Objetivo)
 
 [Funcionalidades](#funcionalidades)
 
@@ -34,7 +34,7 @@
 
 ## Propósito e Objetivo
 
-A Social network for dogs é um app feito para os donos de pet. Essa rede foi pensada para você postar fotos do seu pet e interagir com os demais.
+A dog é um app feito para os donos de pet. Essa rede foi pensada para você postar fotos do seu pet e interagir com os demais.
 
 🐶É uma aplicação responsiva desenvolvida na conclusão de um mega curso de React Js, na plataforma https://www.origamid.com/. Foram utilizadas as principais funcionalidades da biblioteca, com o intuito de abordar os principais conceitos e boas práticas no desenvolvimento.
 
@@ -61,9 +61,9 @@ Gráficos criados com a biblioteca <strong>Victory</strong>
 As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 
 - [HTML](https://devdocs.io/html/)
-- [CSS](https://devdocs.io/css/)
+- [CSS](https://devdocs.io/css/) 
 - [JavaScript](https://devdocs.io/javascript/)
-- [React Js](https://devdocs.io/Reactjs/)
+- [React Js](https://devdocs.io/Reactjs/) 
 - [styled-components](https://devdocs.io/styled-components/)
 - [Victory](https://devdocs.io/Victory/)
 
@@ -83,11 +83,11 @@ Siga os passos abaixo:
 
 ```bash
 # Abra um terminal e copie este repositório com o comando
-$ git clone https://github.com/felipesilv4dev/socialNetworkForDogs.git
+$ git clone https://github.com/felipesilv4dev/dog.git
 # ou use a opção de download.
 
 # Entre na pasta com
-$ cd socialNetworkForDogs
+$ cd dog
 
 # Instale as dependências
 $ npm install
