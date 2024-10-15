@@ -29,12 +29,6 @@ const Login = () => {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
-      <iframe
-        src="https://drive.google.com/file/d/1SDF-B5eKz3Zap-Ki10ipT717HJrwy-GA/preview"
-        width="640"
-        height="480"
-        allow="autoplay"
-      ></iframe>
     </section>
   );
 };
